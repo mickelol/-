@@ -1,24 +1,21 @@
 {
-  "name": "tickety",
+  "name": "ticketbot",
   "version": "1.0.0",
-  "description": "A simple ticket bot",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "engines": {
-     "node": "12.x"
-  },
-  "author": "BlackKnight683",
+  "author": "Micke",
   "license": "ISC",
   "dependencies": {
-    "better": "^0.1.0",
-    "cpu-stat": "^2.0.1",
-    "discord.js": "^12.4.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "node-fetch": "^2.6.1",
-    "os": "^0.1.1"
-  }
+    "better-sqlite3": "^7.1.0",
+    "discord.js": "^12.2.0",
+    "enmap": "^5.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {},
+  "description": ""
 }
